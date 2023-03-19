@@ -4,7 +4,10 @@ let warned = false;
 
 list.addEventListener("submit", (event) => {
   event.preventDefault();
-    
+  if (warned) {
+    warningLine.innerText = "";
+    warned = false;
+  }
   const unOrdered = document.querySelector("ul"); // the unordered list where the todo items go
   let toDoForm = document.getElementById("todo"); // var for form element by id
   let listText = document.getElementById("list").value;
