@@ -2,3 +2,8 @@ body {
     font-family: monospace;
     background-color: antiquewhite;
 }
+
+#warning {
+    color: red;
+    background-color: white;
+}
