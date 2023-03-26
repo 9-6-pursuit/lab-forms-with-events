@@ -1,0 +1,14 @@
+h1 {
+    text-decoration: underline;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    cursor: pointer;
+}
